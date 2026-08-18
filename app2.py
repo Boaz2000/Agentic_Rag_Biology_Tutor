@@ -24,7 +24,7 @@ st.title("💬 צ'אט ביולוגיה אינטראקטיבי - 3 סוכנים"
 st.subheader("נהל שיחה רציפה עם ספר הלימוד שלך")
 
 # הגדרות נתיבים ומפתחות (תעדכן אותם אחי!)
-db_path = r"C:\Users\boaza\Downloads\chroma_db\chroma_db"
+db_path = "./chroma_db"
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 @st.cache_resource
